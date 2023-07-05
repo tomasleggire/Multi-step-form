@@ -1,3 +1,8 @@
+:root {
+  --principal-bg-white: rgb(243, 243, 247);
+  --secondary-bg-white: rgb(223, 231, 248);
+}
+
 * {
   padding: 0;
   margin: 0;
