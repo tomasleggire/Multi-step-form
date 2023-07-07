@@ -5,6 +5,7 @@ import Step from '../components/Step';
 type Step = {
   num: number;
   title: string;
+  selected: boolean;
 };
 
 interface MyProps {
@@ -15,7 +16,14 @@ export default function StepsMain(props: MyProps) {
   return (
     <div className="steps-main-div">
       {props.steps.map((step) => {
-        return <Step num={step.num} title={step.title} />;
+        return (
+          <Step
+            key={step.num}
+            num={step.num}
+            title={step.title}
+            selected={step.selected}
+          />
+        );
       })}
     </div>
   );

@@ -8,8 +8,8 @@
 
 .step-num {
   background-color: transparent;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -22,7 +22,6 @@
 .step-num-selected {
   background-color: var(--secondary-bg-white);
   color: var(--principal-text);
-  border: 2px solid var(--principal-text);
 }
 
 .step-text {
