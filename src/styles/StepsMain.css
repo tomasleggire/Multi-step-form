@@ -1,13 +1,14 @@
 .steps-main-div {
   width: 30%;
   height: calc(100vh - 20px);
-  background: rgb(84, 83, 196);
+  background: rgb(140, 175, 182);
   background: linear-gradient(
-    0deg,
-    rgba(84, 83, 196, 1) 39%,
-    rgba(0, 212, 255, 1) 96%
+    5deg,
+    rgba(140, 175, 182, 1) 7%,
+    rgba(84, 83, 196, 1) 55%
   );
   border-radius: 5px;
+  padding: 30px 25px;
 }
 
 @media only screen and (max-width: 660px) {
@@ -15,5 +16,9 @@
     width: 100%;
     border-radius: 0;
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 22px;
   }
 }
