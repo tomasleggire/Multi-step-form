@@ -1,6 +1,7 @@
 import './App.css';
 import StepsMain from './containers/StepsMain';
 import useSteps from './hooks/useSteps';
+import FormLayout from './containers/FormLayout';
 
 function App() {
   const { steps } = useSteps();
@@ -8,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <StepsMain steps={steps} />
-      <div className="form"></div>
+      <FormLayout>
+        <h1>Personal Info</h1>
+      </FormLayout>
     </div>
   );
 }

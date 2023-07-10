@@ -12,7 +12,7 @@ interface MyProps {
   steps: Step[];
 }
 
-export default function StepsMain(props: MyProps) {
+export default function StepsMain(props: MyProps): JSX.Element {
   return (
     <div className="steps-main-div">
       {props.steps.map((step) => {
